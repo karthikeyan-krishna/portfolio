@@ -142,6 +142,8 @@ body {
     height: 20em;
     background: #8e2de2; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);
+    background: -moz-linear-gradient(to right, #4a00e0, #8e2de2);
+    background: -o-linear-gradient(to right, #4a00e0, #8e2de2);
     background: linear-gradient(to right, #4a00e0, #8e2de2);
     border-radius: 50%;
 }
@@ -156,6 +158,8 @@ body {
     top: 8em;
     background: #f953c6;
     background: -webkit-linear-gradient(to right, #b91d73, #f953c6);
+    background: -moz-linear-gradient(to right, #b91d73, #f953c6);
+    background: -o-linear-gradient(to right, #b91d73, #f953c6);
     background: linear-gradient(to right, #b91d73, #f953c6);
 }
 
@@ -226,6 +230,8 @@ body {
     height: 20em;
     background: #f953c6;
     background: -webkit-linear-gradient(to right, #b91d73, #f953c6);
+    background: -moz-linear-gradient(to right, #b91d73, #f953c6);
+    background: -o-linear-gradient(to right, #b91d73, #f953c6);
     background: linear-gradient(to right, #b91d73, #f953c6);
     border-radius: 50%;
 }
@@ -240,6 +246,8 @@ body {
     top: 8em;
     background: #8e2de2;
     background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);
+    background: -moz-linear-gradient(to right, #4a00e0, #8e2de2);
+    background: -o-linear-gradient(to right, #4a00e0, #8e2de2);
     background: linear-gradient(to right, #4a00e0, #8e2de2);
 }
 
@@ -394,6 +402,8 @@ footer .social_media_icons a:hover i {
     width: 40px;
     height: 40px;
     -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     cursor: pointer;
     border-radius: 10px;
     background: rgb(31, 31, 31);
