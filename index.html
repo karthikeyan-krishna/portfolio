@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Karthikeyan Krishna - Web Developer | Portfolio</title>
     <link rel="stylesheet" href="style.css"/>
-    <link rel="stylesheet" href="fontawesome/css/all.min.css"/>
 
     <meta content="title" name="title">
     <meta content="This is my Portfolio Website. Find my projects listed and contact me for any new Projects"
@@ -23,6 +22,7 @@
     <link href="https://karthikeyan-krishna.github.io" rel="canonical">
     <link href=karthikeyan.jpg rel=icon>
     <link href=karthikeyan.jpg rel=apple-touch-icon>
+    <link href="https://fonts.gstatic.com" rel="preconnect">
     <script type="application/ld+json">{
         "@context": "https://schema.org",
         "@type": "Organization",
@@ -98,7 +98,7 @@
     <div class="container center">
         <div class="main_box center">
             <div class="icon center">
-                <img src="img/beta-house.png" class="img-fluid"
+                <img src="img/beta-house.webp" class="img-fluid"
                      alt="Beta House - Flexible Coliving Spaces, Student Accommodations and Fully Furnished Apartments">
             </div>
             <div class="box">
@@ -115,7 +115,7 @@
         </div>
         <div class="main_box center">
             <div class="icon center">
-                <img src="img/masterschess.png" class="img-fluid"
+                <img src="img/masterschess.webp" class="img-fluid"
                      alt="Masters Chess | A Chess Application for Coaches and Academy for managing, tracking and Coaching their Players with Puzzles and Lessons">
             </div>
             <div class="box">
@@ -133,7 +133,7 @@
         </div>
         <div class="main_box center">
             <div class="icon center">
-                <img src="img/selfmade.png" class="img-fluid"
+                <img src="img/selfmade.webp" class="img-fluid"
                      alt="Selfmade Ecom Pvt Ltd | Selfmade is a Network Marketing Business or Direct Selling with a wide variety of Products">
             </div>
             <div class="box">
@@ -208,7 +208,16 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
 <script src="particles.js"></script>
+<link rel="stylesheet" href="fontawesome/css/all.min.css"/>
 <script>
+    let link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = "fontawesome/css/all.min.css";
+    document.body.append(link);
+    link = document.createElement("link");
+    link.href = "https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Work+Sans&display=swap";
+    link.rel = "stylesheet";
+    document.append(link);
     const toggle = document.getElementById("toggle");
     document.getElementById("btn").addEventListener("click", () => {
         toggle.classList.toggle("active");
