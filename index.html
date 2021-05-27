@@ -87,6 +87,14 @@
             <i class="fab fa-google fa-4x"></i>
             <p>SEO</p>
         </div>
+        <div class="box">
+            <i class="fa fa-chart-line fa-4x"></i>
+            <p>Analytics</p>
+        </div>
+        <div class="box">
+            <i class="fa fa-envelope fa-4x"></i>
+            <p>E-Mail Hosting</p>
+        </div>
     </div>
     <a href="https://github.com/karthikeyan-krishna/karthikeyan-krishna" style="z-index:1">
         <img src="https://github-readme-stats.vercel.app/api/top-langs?username=karthikeyan-krishna&count_private=true&theme=onedark&line_height=30&layout=default" width="299" height="242.5"
@@ -164,7 +172,6 @@
     </div>
 </section>
 
-<!-- footer -->
 <footer class="center">
     <h1>Stay Connected</h1>
     <div class="social_media_icons">
@@ -177,10 +184,15 @@
         <a href="https://www.linkedin.com/in/karthikeyan-krishna" target="_blank">
             <i class="fab fa-linkedin"></i>
         </a>
+        <a href="https://api.whatsapp.com/send?phone=919150504488" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://www.facebook.com/karthikeyan8198" target="_blank">
+            <i class="fab fa-facebook"></i>
+        </a>
     </div>
 </footer>
 
-<!-- Toggle -->
 <div class="toggle center active" id="toggle">
     <div class="box center">
         <a href="#main" class="links center">
@@ -218,7 +230,7 @@
     link = document.createElement("link");
     link.href = "https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Work+Sans&display=swap";
     link.rel = "stylesheet";
-    document.append(link);
+    document.body.append(link);
     const toggle = document.getElementById("toggle");
     document.getElementById("btn").addEventListener("click", () => {
         toggle.classList.toggle("active");
