@@ -40,7 +40,7 @@
         <a href="#About" class="btn">About Me</a>
     </div>
     <div class="user_img">
-        <img src="karthikeyan.jpg" alt="Karthikeyan"/>
+        <img src="karthikeyan.jpg" alt="Karthikeyan Krishna - Web Developer | Full Stack Developer."/>
     </div>
 </section>
 
@@ -52,7 +52,7 @@
         </p>
     </div>
     <img src="https://github-readme-stats.vercel.app/api?username=karthikeyan-krishna&count_private=true&show_icons=true&theme=tokyonight&line_height=50&hide_rank=false"
-         alt="Github Stats">
+         alt="Github Stats of Karthikeyan Krishna">
 </section>
 
 <section class="skills center" id="Skills">
@@ -87,9 +87,9 @@
             <p>SEO</p>
         </div>
     </div>
-    <a href="https://github.com/karthikeyan-krishna/karthikeyan-krishna">
+    <a href="https://github.com/karthikeyan-krishna/karthikeyan-krishna" style="z-index:1">
         <img src="https://github-readme-stats.vercel.app/api/top-langs?username=karthikeyan-krishna&count_private=true&theme=onedark&line_height=30&layout=default"
-             alt="Top Languages">
+             alt="Top Programming Languages used by Karthikeyan Krishna">
     </a>
 </section>
 
@@ -98,7 +98,8 @@
     <div class="container center">
         <div class="main_box center">
             <div class="icon center">
-                <img src="img/beta-house.png" class="img-fluid" alt="Beta House">
+                <img src="img/beta-house.png" class="img-fluid"
+                     alt="Beta House - Flexible Coliving Spaces, Student Accommodations and Fully Furnished Apartments">
             </div>
             <div class="box">
                 <h1>Beta House Coliving</h1>
@@ -114,12 +115,15 @@
         </div>
         <div class="main_box center">
             <div class="icon center">
-                <img src="img/masterschess.png" class="img-fluid" alt="Masters Chess">
+                <img src="img/masterschess.png" class="img-fluid"
+                     alt="Masters Chess | A Chess Application for Coaches and Academy for managing, tracking and Coaching their Players with Puzzles and Lessons">
             </div>
             <div class="box">
                 <h1>Masters Chess</h1>
-                <p>A Chess Application for Coaches and Academy for managing, tracking and Coaching their Players with
-                    Puzzles and Lessons</p>
+                <p>
+                    A Chess Application for Coaches and Academy for managing, tracking and Coaching their Players with
+                    Puzzles and Lessons
+                </p>
                 <div class="links">
                     <a href="https://www.masterschess.co.in" target="_blank_">
                         Link<i class="fas fa-arrow-right"></i>
@@ -129,7 +133,8 @@
         </div>
         <div class="main_box center">
             <div class="icon center">
-                <img src="img/selfmade.png" class="img-fluid" alt="Selfmade Ecom Pvt Ltd">
+                <img src="img/selfmade.png" class="img-fluid"
+                     alt="Selfmade Ecom Pvt Ltd | Selfmade is a Network Marketing Business or Direct Selling with a wide variety of Products">
             </div>
             <div class="box">
                 <h1>Selfmade</h1>
@@ -205,13 +210,10 @@
 <script src="particles.js"></script>
 <script>
     const toggle = document.getElementById("toggle");
-    const btn = document.getElementById("btn");
-    const links = document.querySelectorAll(".links");
-
-    btn.addEventListener("click", () => {
+    document.getElementById("btn").addEventListener("click", () => {
         toggle.classList.toggle("active");
     });
-    links.forEach((e) => {
+    document.querySelectorAll(".links").forEach((e) => {
         e.addEventListener("click", () => {
             toggle.classList.toggle("active");
         })
